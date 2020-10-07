@@ -9,14 +9,17 @@ import { FolderPageRoutingModule } from './folder-routing.module';
 import { FolderPage } from './folder.page';
 import { FooterComponent } from '../footer/footer.component';
 import { HeaderComponent } from '../header/header.component';
+import { AcceuilComponent } from '../acceuil/acceuil.component';
+import { AccueilPageModule } from '../accueil/accueil.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    FolderPageRoutingModule
+    FolderPageRoutingModule,
+    AccueilPageModule
   ],
-  declarations: [FolderPage, FooterComponent, HeaderComponent]
+  declarations: [FolderPage, FooterComponent, HeaderComponent, AcceuilComponent]
 })
 export class FolderPageModule {}

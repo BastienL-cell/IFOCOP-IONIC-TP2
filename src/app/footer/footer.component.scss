@@ -1,6 +1,8 @@
-ion-title {
+ion-text {
     text-align: center;
-    background-color: #C00;
     color: #fff;
     height: 55px;
+}
+ion-toolbar {
+    --background: #c00;
 }

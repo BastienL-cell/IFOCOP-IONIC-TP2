@@ -1,9 +1,10 @@
-ion-title{
+ion-text{
     text-align: center;
     color: #fff;
-    background-color: #C00;
-    height: 55px;
 }
 a {
     color: #fff;
+}
+ion-toolbar {
+    --background: #c00;
 }

@@ -1,0 +1,32 @@
+form {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    div {
+        margin: 15px 0;
+    }
+}
+label {
+    display: block;
+}
+input, textarea {
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+}
+button[type="submit"] {
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: #C00;
+    border: none;
+    box-sizing: border-box;
+    color: #fff;
+    text-transform: uppercase;
+}
+h1 {
+    color: var(--custom-red-color);
+    font-size: 2.1rem;
+    text-align: center;
+}

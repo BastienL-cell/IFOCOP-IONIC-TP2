@@ -1,0 +1,35 @@
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: var(--custom-red-color);
+}
+h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--custom-green-color);
+}
+form {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+input[type="search"] {
+    margin: 0;
+    width: 75%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+button[type="submit"] {
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: #C00;
+    border: none;
+    box-sizing: border-box;
+    color: #fff;
+}
+.content-body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}

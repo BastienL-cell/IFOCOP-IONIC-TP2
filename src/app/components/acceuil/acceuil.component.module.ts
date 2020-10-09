@@ -4,8 +4,7 @@ import { AcceuilComponent } from "./acceuil.component";
 @NgModule({
     declarations: [AcceuilComponent],
     imports: [],
-    providers: [],
-    bootstrap: []
+    exports: [AcceuilComponent]
 })
 
 export class AcceuilComponentModule {}

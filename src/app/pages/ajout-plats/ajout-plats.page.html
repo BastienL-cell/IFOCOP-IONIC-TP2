@@ -1,0 +1,36 @@
+<app-header></app-header>
+
+
+<ion-content>
+    <h1>Ajout de plats</h1>
+    <form action="">
+        <div>
+            <label for="platName">Nom du plat</label>
+            <input type="text" name="platName" id="platName">
+        </div>
+        <div>
+            <label for="platDescription">Description</label>
+            <textarea name="platDescription" id="platDescription" cols="30" rows="3"></textarea>
+        </div>
+        <div>
+            <label for="platPrice">Prix</label>
+            <input type="number" name="platPrice" id="platPrice">
+        </div>
+        <div>
+            <label for="platImage">Image</label>
+            <input type="text" name="platImage" id="platImage">
+        </div>
+        <div>
+            <select name="" id="">
+                <option value="pizza">Pizza</option>
+                <option value="pates">Pâtes</option>
+                <option value="desserts">Désserts</option>
+                <option value="boissons-fraiches">Boissons fraîches</option>
+                <option value="vins">Vins</option>
+            </select>
+        </div>
+        <button type="submit">Ajouter</button>
+    </form>
+</ion-content>
+
+<app-footer></app-footer>

@@ -7,13 +7,15 @@ import { IonicModule } from '@ionic/angular';
 import { EspaceClientPageRoutingModule } from './espace-client-routing.module';
 
 import { EspaceClientPage } from './espace-client.page';
+import { FooterComponentModule } from 'src/app/components/footer/footer.module';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    EspaceClientPageRoutingModule
+    FooterComponentModule,
+    EspaceClientPageRoutingModule,
   ],
   declarations: [EspaceClientPage]
 })

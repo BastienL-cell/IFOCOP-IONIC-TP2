@@ -8,3 +8,9 @@ a {
 ion-toolbar {
     --background: #c00;
 }
+ion-buttons {
+    justify-content: space-between;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}

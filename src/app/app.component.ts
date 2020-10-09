@@ -14,7 +14,7 @@ export class AppComponent implements OnInit {
   public appPages = [
     {
       title: 'Acceuil',
-      url: '/folder/accueil'
+      url: '/accueil'
     },
     {
       title: 'Notre carte',
@@ -25,7 +25,8 @@ export class AppComponent implements OnInit {
       
     },
     {
-      title: "Espace admin"
+      title: "Espace admin",
+      url: "/ajout-plats"
     },
     {
       title: "La liste"
